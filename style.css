@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:whitesmoke;   
+}
+
+/* W3Svhools'dan bakılarak navigasyon yapısı (ul ve li) yatay hale getirildi */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+   
+    
+}
+
+.trend {
+    background-color: rgb(202, 188, 188);
+    width: 300px;
+    padding: 10px;
+    margin: 10px 5px;
+    float: left;
+    border-radius: 10px;
+}
+
+/* Temizleme satırı ekleme */
+.clear {
+    clear: both;
+}
+
+/* Container oluşturuldu ortadaki kenar boşluklu yapı içerisine alınacak */
+.container {
+    width:1000px;
+    margin: 0 auto;
+}
+
+.vitrin {
+    width: 33%;
+    height: 510px;
+    float:left;
+    margin: 10px auto;
+    
+}
+
+.bosluk {
+    margin: 10px auto;
+}
+
+.yaziortalama {
+    text-align: center;
+}
+
+.headersolayaslama {
+    float: left;
+}
+
+.footer {
+    text-align: center;
+    height: 20px;
+    margin: 0 0;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 12px;
+    font-family: 'Dosis', sans-serif;
+    /* font-family: 'Gideon Roman', cursive; */
+    
+}
+
